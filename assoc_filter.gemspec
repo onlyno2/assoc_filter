@@ -18,4 +18,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.required_ruby_version = '>= 2.5.6'
+
+  gem.add_dependency 'activesupport', '~> 5.0'
+
+  gem.add_development_dependency 'rspec', '~> 3.5', '>= 3.5.2'
 end
