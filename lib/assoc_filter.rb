@@ -1,0 +1,3 @@
+module AssocFilter
+  # code goes here...
+end
